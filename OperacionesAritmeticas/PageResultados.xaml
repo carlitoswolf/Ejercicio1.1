@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercise1._1.OperacionesAritmeticas.PageResultados"
+             Title="Resultado">
+    <VerticalStackLayout>
+
+
+        <StackLayout>
+
+            <Label Text="EL RESULTADO ES:" HorizontalTextAlignment="Center" FontSize="30"
+       Margin="20"/>
+
+            <Label Text="{Binding resultado}" HorizontalTextAlignment="Center" FontSize="40"
+                   Margin="20"/>
+            
+
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

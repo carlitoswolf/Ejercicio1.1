@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercise1._1.MainPage"
+             Title="Operaciones Matematicas" BackgroundColor="Azure">
+
+    <StackLayout Margin="20">
+        <Label Text="Numero 1" HorizontalTextAlignment="Start" FontSize="20"
+            Margin="5"/>
+        <Entry x:Name="input1" Keyboard="Numeric" FontSize="17"/>
+
+        <Label Text="Numero 2" HorizontalTextAlignment="Start" FontSize="20"
+            Margin="5"/>
+        <Entry x:Name="input2" Keyboard="Numeric" FontSize="17"/>
+
+        <Button Text="Sumar" Clicked="btnSumar_Clicked" HeightRequest="50" 
+        WidthRequest="350" Margin="20" BackgroundColor="Green"/>
+
+        <Button Text="Restar"  Clicked="btnRestar_Clicked" HeightRequest="50" 
+        WidthRequest="350" Margin="20" BackgroundColor="Green"/>
+
+        <Button Text="Mutiplicacar" Clicked="btnMultiplicar_Clicked" HeightRequest="50" 
+        WidthRequest="350" Margin="20" BackgroundColor="Green"/>
+
+        <Button Text="Dividir" Clicked="btnDividir_Clicked" HeightRequest="50" 
+        WidthRequest="350" Margin="20" BackgroundColor="Green"/>
+
+    </StackLayout>
+
+</ContentPage>
